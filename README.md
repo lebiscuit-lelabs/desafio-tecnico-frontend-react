@@ -10,10 +10,10 @@ Convert the following design to a Single Web Application (SPA):
 
 ## Technology stack
 You are expected to use the following:
-    - Use ([React](https://reactjs.org/))
-    - Library for state management (for example Redux, Vuex);
-    - SCSS syntax for page styles using SASS or LESS;
-    - ECMAScript 6 for JavaScript.
+- Use ([React](https://reactjs.org/))
+- Library for state management (for example Redux, Vuex);
+- SCSS syntax for page styles using SASS or LESS;
+- ECMAScript 6 for JavaScript.
 
 
 ## Instructions
