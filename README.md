@@ -3,7 +3,7 @@ Convert the following design to a Single Web Application (SPA):
 
 ![Logo](logo.jpeg)
 
-![Screenshot 1](screenshots/screenshot1.jpg)
+![Screenshot 1](screenshots/screenshot1.png)
 
 [Figma](https://www.figma.com/file/szAbOw9emV2pQE3WfWstcf/Shoppy-app-ui-(Community)?node-id=103%3A2)
 
