@@ -10,20 +10,29 @@ Convert the following design to a Single Web Application (SPA):
 
 ## Technology stack
 You are expected to use the following:
-- Use ([React](https://reactjs.org/))
+- Use [React](https://reactjs.org/)
 - Library for state management (for example Redux);
 - SCSS syntax for page styles using SASS or LESS;
 - ECMAScript 6 for JavaScript.
 
+# Context
+You're entering a website with all of the characters and houses of the show Game of Thrones. The user should be able to do:
+- List the characters
+- List the houses
+- Filter characters by house
+- Filter characters by name
+- Favorite the characters ("add to cart")
+**USE ALWAYS THE SHOW'S API AND DO NOT USE THE BOOK's**
+
 
 ## Instructions
 - Fork this project, work and make a pull request when you're done
-- Consulting the [API](https://dummyproducts-api.herokuapp.com/) you must do the following tasks:
-    - List the 9 first departments available in (/api/v1/departments) below the topbar (choose the image that fits the best)
-    - When the user clicks in one of the departmens a filter should be done and the result should be listed
-        - Product Name, Product Type, Price, Stars, Image and the product with the less value in the list should have the tag "`50% OFF`"
-    - When the user search a product in the search bar, the expected result should be a filter with the input consulting the API
-    - When the user clicks "Add" the product should be added to the cart (changing it's number only)    
+- Consulting the [API](https://api.got.show/doc/) you must do the following tasks:
+    - Below the search bar list all **"`HouseShow`"** [Screenshot](screenshots/screenshot2.png)
+    - When the user clicks in one of the houses a filter should be done and the result should be listed
+        - List in each tile the character name, its titles, its gender and if it's alive or not (We ❤️ custom icons and gifs)
+    - When the user search a character name in the search bar, the expected result should be a filter with the input consulting the API by name
+    - When the user clicks "Add" the chracter should be added to the cart (changing the cart number only) - Attention with the heart 
 
 
 ## Requirements
