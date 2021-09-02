@@ -15,7 +15,7 @@ You are expected to use the following:
 - SCSS syntax for page styles using SASS or LESS;
 - ECMAScript 6 for JavaScript.
 
-# Context
+## Context
 You're entering a website with all of the characters and houses of the show Game of Thrones. The user should be able to do:
 - List the characters
 - List the houses
