@@ -22,7 +22,7 @@ You're entering a website with all of the characters and houses of the show Game
 - Filter characters by house
 - Filter characters by name
 - Favorite the characters ("add to cart")
-**USE ALWAYS THE SHOW'S API AND DO NOT USE THE BOOK's**
+- **USE ALWAYS THE SHOW'S API AND DO NOT USE THE BOOK's**
 
 
 ## Instructions
