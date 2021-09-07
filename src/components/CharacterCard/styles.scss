@@ -1,0 +1,82 @@
+.character {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--white);
+  padding: 1.4rem;
+  border-radius: 0.4rem;
+
+  box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.2);
+
+  .image-box {
+    height: 22rem;
+    background-color: var(--gray-50);
+    width: 100%;
+  }
+
+  &__avatar {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  &__name {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: var(--gray-300);
+    margin: 1.2rem 0 2rem;
+  }
+
+  &__description {
+    font-size: 1.6rem;
+    color: var(--black);
+    font-weight: 600;
+    flex: 1;
+
+    max-height: 20rem;
+    height: 100%;
+  }
+
+  &__gender {
+    font-size: 1.4rem;
+    color: var(--gray-100);
+    font-weight: 400;
+    margin-top: 1.4rem;
+  }
+
+  &__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.4rem;
+  }
+
+  &__alive {
+    font-size: 1.4rem;
+    font-weight: 600;
+  }
+
+  .btn-add-to-cart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 0.6rem 1.4rem;
+
+    border: 0.2rem solid var(--blue-light);
+    color: var(--blue-dark);
+    cursor: pointer;
+
+    border-radius: 0.4rem;
+    font-weight: 400;
+
+    background-color: transparent;
+
+    gap: 1rem;
+    transition: 0.2s ease-in-out;
+
+    &:hover {
+      color: darken(#2264d1, 5%);
+      border-color: darken(#9dc2ff, 40%);
+    }
+  }
+}
