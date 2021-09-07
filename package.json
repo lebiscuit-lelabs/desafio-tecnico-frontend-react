@@ -21,7 +21,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "CI=false react-scripts build",
     "test": "react-scripts test",
     "test:e2e": "start-server-and-test start 3000 cy:open",
     "cy:open": "cypress open",
