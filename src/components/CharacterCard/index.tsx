@@ -42,8 +42,8 @@ const CharacterCard = ({
           type="button"
           onClick={onCharacterAdd}
         >
-          {!added && <MdFavoriteBorder />}
-          {added && <MdFavorite />}
+          {!added && <MdFavoriteBorder aria-label="icon favorite outline" />}
+          {added && <MdFavorite aria-label="icon favorite" />}
           Add
         </button>
       </div>
