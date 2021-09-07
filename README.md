@@ -55,3 +55,53 @@ The submitted code will be evaluated for the following aspects:
 
 ## Tips
 - We ❤️ animations, code coverage and end-to-end tests
+
+---
+
+## Descrição
+
+### Aplicação client do desafio tecnico lelabs, desenvolvida com React.
+
+- Aplicação servida na Netlify - [Lelabs-front-challenge](https://lelabs-challenge.netlify.app/)
+---
+
+### A aplicação foi desenvolvida utilizando as Tecnologias e ferramentas:
+
+- [React](https://pt-br.reactjs.org/)
+- [Typescript](https://www.typescriptlang.org/)
+- [Sass](https://sass-lang.com/)
+- [Storybook](https://storybook.js.org/)
+- [React-icons](https://react-icons.github.io/react-icons/)
+- [Zustand State management](https://github.com/pmndrs/zustand)
+- [Testing library](https://testing-library.com/)
+- [Jest](https://jestjs.io/pt-BR/)
+- [Cypress](https://docs.cypress.io/)
+---
+
+Para rodar a aplicação em ambiente de desenvolvimento:
+
+```shell
+## instala as dependencias
+npm i
+
+## roda o projeto na porta 3000
+npm start
+```
+
+Para rodar os testes unitários:
+
+```shell
+npm run test
+```
+
+Para rodar os testes end-to-end:
+
+```shell
+npm run test:e2e
+```
+
+Para rodar o Storybook:
+
+```shell
+npm run storybook
+```

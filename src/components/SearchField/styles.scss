@@ -1,0 +1,24 @@
+.wrapper {
+  display: flex;
+  padding: 0 10px;
+  border: none;
+  box-shadow: rgba(255, 255, 255, 0.85);
+
+  background-color: var(--gray-50);
+  border-radius: 0.3rem;
+
+  align-items: center;
+}
+
+.input-search {
+  background: transparent;
+  font-size: 1rem;
+  border: none;
+
+  width: 100%;
+  outline: none;
+
+  padding: 8px 0;
+
+  color: var(--black);
+}
