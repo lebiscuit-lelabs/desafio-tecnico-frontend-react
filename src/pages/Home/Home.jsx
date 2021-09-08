@@ -21,7 +21,14 @@ export default function Home() {
     <>
       <Header />
       {isLoading ? (
-        <span className="loaderContent">
+        <span
+          style={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            height: "450px",
+          }}
+        >
           <Loader type="TailSpin" color="#002045" height={170} width={170} />
         </span>
       ) : (

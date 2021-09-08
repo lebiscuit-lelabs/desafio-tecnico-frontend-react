@@ -34,24 +34,6 @@
   margin-right: 20px;
 }
 
-.favorite {
-  display: flex;
-  width: 22px;
-  height: 22px;
-  border-radius: 25%;
-  font-weight: 700;
-  font-size: 14px;
-  letter-spacing: 0.0025em;
-  position: absolute;
-  top: -13px;
-  right: -15px;
-  align-items: center;
-  justify-content: center;
-  color: #fff;
-  background: #2185d5;
-  border: 1px solid #3a4750;
-}
-
 @media (max-width: 600px) {
   .menuLogo {
     display: none;

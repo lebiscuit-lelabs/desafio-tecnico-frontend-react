@@ -13,7 +13,6 @@ export default function Header() {
     e.preventDefault();
     if (searchValue) {
       dispatch(DataActions.getCharacterByName(searchValue));
-      setSearchValue("");
     }
   }
 
@@ -38,7 +37,28 @@ export default function Header() {
           <ul>
             <li style={{ position: "relative", cursor: "not-allowed" }}>
               <FiHeart size={28} color="#fff" />
-              <span className="favorite">{favSize}</span>
+              <span
+                style={{
+                  background: "#2185D5",
+                  width: "22px",
+                  height: "22px",
+
+                  borderRadius: "25%",
+                  fontWeight: "700",
+                  fontSize: "14px",
+                  letterSpacing: ".0025em",
+                  color: "#fff",
+                  position: "absolute",
+                  top: "-13px",
+                  right: "-15px",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  border: "1px solid #3A4750",
+                }}
+              >
+                {favSize}
+              </span>
             </li>
           </ul>
         </nav>
