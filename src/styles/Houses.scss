@@ -1,0 +1,84 @@
+.search {
+  background: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px calc((100% - 960px) / 2);
+  filter: drop-shadow(1px 1px 3px #ababab);
+}
+
+.searchForm {
+  flex: 2 1 260px;
+  margin: 0 40px;
+  align-self: center;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  position: relative;
+  outline: 0;
+}
+
+.housesWrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.housesWrapper p {
+  margin-top: 9px;
+}
+
+.house {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.houseImage {
+  width: 62px;
+  height: 70px;
+}
+
+.searchForm input {
+  color: #7c7c7c;
+  background: #d9dee3;
+  padding: 10px;
+  width: 100%;
+  height: 40px;
+  z-index: 1;
+  position: relative;
+  border-radius: 5px;
+  border: 1px solid #333;
+}
+
+.searchForm svg {
+  color: #000000;
+  cursor: pointer;
+  right: 12px;
+  left: auto;
+  outline: 0;
+  overflow: visible;
+  padding: 0;
+  position: absolute;
+  top: 10px;
+  user-select: none;
+  z-index: 2;
+}
+
+@media (max-width: 600px) {
+  .searchForm button {
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width: 800px) {
+  .house img {
+    display: none;
+  }
+
+  .house p {
+    font-size: 0.6em;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+}

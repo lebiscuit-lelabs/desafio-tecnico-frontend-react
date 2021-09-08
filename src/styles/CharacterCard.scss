@@ -1,0 +1,89 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
+.character {
+  max-width: 960px;
+  margin: 20px auto;
+}
+
+.character h1 {
+  font-size: 2.5em;
+  margin: 0 10px 15px 10px;
+  color: #a9a9;
+}
+
+.character h2 {
+  font-size: 2.5em;
+  margin: 0 10px 15px 10px;
+  color: #a9a9;
+  display: inline-block;
+}
+
+.characterCard {
+  flex: 1 1 175px;
+  margin: 10px;
+  background: #fff;
+  border: 1px solid #f7f7f7;
+  border-radius: 5px;
+  height: 412px;
+  max-width: 220px;
+}
+
+.characterCard h3 {
+  font-size: 1.2em;
+  color: #333;
+  margin-top: 0px;
+  margin-left: 10px;
+}
+
+.characterCard h2 {
+  font-size: 1.5em;
+  color: #333;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.characterCard p {
+  font-size: 1.2em;
+  color: #a4a4a4;
+  margin: 10px;
+}
+
+.characterCard img {
+  display: block;
+  max-width: 100%;
+  width: 170px;
+  padding: 10px;
+  height: 240px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.characterCard img:hover {
+  transform: scale(1.02, 1.02);
+  transition: 0.5s;
+}
+
+button {
+  display: flex;
+  align-items: flex-end;
+  font-family: "Nunito", Helvetica, Arial, sans-serif;
+  font-size: 0.77em;
+  font-weight: bold;
+  background: transparent;
+  color: #2264d1;
+  margin: 0px;
+  cursor: pointer;
+  border: 1px solid #9dc2ff;
+  border-radius: 5px;
+  padding: 2px 10px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    justify-content: center;
+  }
+}

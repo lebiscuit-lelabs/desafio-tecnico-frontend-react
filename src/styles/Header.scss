@@ -1,0 +1,47 @@
+.menuBg {
+  background: #002045;
+}
+
+.menu {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 15px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu a {
+  color: #fff;
+}
+
+.menuLogo a {
+  font-size: 2.25em;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+.menuNav ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menuNav a {
+  font-size: 1.25em;
+  display: block;
+  padding: 10px;
+  margin-right: 20px;
+}
+
+@media (max-width: 600px) {
+  .menuLogo {
+    display: none;
+  }
+}
+
+@media (max-width: 1060px) {
+  .menuNav {
+    margin-right: 30px;
+  }
+}
