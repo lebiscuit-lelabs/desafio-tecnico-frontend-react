@@ -22,25 +22,11 @@ export default function CharacterCard({ data }) {
         {data.length > 0 ? (
           data.map((character) => (
             <div key={character.id} className="characterCard">
-              <div
-                style={{
-                  display: "flex",
-                  width: "100%",
-                  justifyContent: "center",
-                }}
-              >
+              <div className="imageWrapper">
                 <img src={character.image} alt={character.name} />
               </div>
               <h3>{character.name}</h3>
-              <div
-                style={{
-                  display: "flex",
-                  alignItems: "center",
-                  margin: "5px 16px",
-                  marginTop: "25px",
-                  justifyContent: "space-between",
-                }}
-              >
+              <div className="characterInfo">
                 {character.gender === "male" ? (
                   <BiMaleSign size={20} color="#2264d1" />
                 ) : (
@@ -63,15 +49,7 @@ export default function CharacterCard({ data }) {
                 </button>
               </div>
 
-              <div
-                style={{
-                  display: "flex",
-                  alignItems: "center",
-                  margin: "5px 16px",
-                  marginTop: "25px",
-                  justifyContent: "space-between",
-                }}
-              >
+              <div className="characterInfo">
                 {character.alive ? (
                   <FaHeartbeat size={20} color="#AF1F24" />
                 ) : (
@@ -85,15 +63,7 @@ export default function CharacterCard({ data }) {
             </div>
           ))
         ) : (
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              alignItems: "center",
-              width: "100%",
-              marginTop: "110px",
-            }}
-          >
+          <div className="emptyContainer">
             <p style={{ fontWeight: "bold" }}>Sorry, No results found.</p>
             <p>
               Try entering your favorite character's name correctly. example:

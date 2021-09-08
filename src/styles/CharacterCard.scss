@@ -62,9 +62,31 @@
   border-radius: 20px;
 }
 
+.imageWrapper {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.characterInfo {
+  display: flex;
+  align-items: center;
+  margin: 5px 16px;
+  margin-top: 25px;
+  justify-content: space-between;
+}
+
 .characterCard img:hover {
   transform: scale(1.02, 1.02);
   transition: 0.5s;
+}
+
+.emptyContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 110px;
 }
 
 button {
