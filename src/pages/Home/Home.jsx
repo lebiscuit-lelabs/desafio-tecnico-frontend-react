@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import Loader from "react-loader-spinner";
-import Header from "../../components/Header/Header";
+import Header from "../../components/Header";
 import CharacterCard from "../../components/CharacterCard";
 
 import * as DataActions from "../../store/modules/data/actions";
